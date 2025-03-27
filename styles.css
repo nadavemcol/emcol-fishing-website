@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #2a4d72;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Home Section */
+#home {
+    background-color: #e0f7fa;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#home h1 {
+    font-size: 48px;
+    color: #2a4d72;
+}
+
+#home p {
+    font-size: 20px;
+    color: #555;
+}
+
+/* Fail Message */
+.fail-message {
+    background-color: red;
+    color: white;
+    font-size: 36px;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.fail-message h2 {
+    margin: 0;
+}
+
+/* Hero Image */
+.hero-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    background-color: #2a4d72;
+    color: white;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Buttons */
+button {
+    background-color: #2a4d72;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #1d3d53;
+}
